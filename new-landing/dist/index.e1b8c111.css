@@ -1,0 +1,185 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+@import "https://fonts.googleapis.com/css?family=Inter:400";
+@import "https://px.animaapp.com/63d70261a06de72f520e1793.63d70262911c74820293a378.8FYklLr.rcp.png";
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.valign-text-middle {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.landing {
+  cursor: pointer;
+  height: 100vh;
+  min-height: 1024px;
+  min-width: 1440px;
+  width: 100%;
+  background-color: #005eb8;
+  border: 1px;
+  flex-direction: column;
+  transition: all .2s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing:hover {
+  background-color: #005eb8;
+}
+
+.rectangle-6 {
+  background-color: var(--viking);
+  height: 100px;
+  width: 1440px;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.group-8 {
+  cursor: pointer;
+  height: 94px;
+  min-width: 554px;
+  z-index: 4;
+  align-items: flex-start;
+  transition: all .2s ease-in;
+  display: flex;
+  position: fixed;
+  top: 6px;
+  left: 888px;
+}
+
+.group-8:hover, .group-9:hover {
+  transform: scale(1.1);
+}
+
+.overlap-group {
+  background-color: var(--viking);
+  height: 94px;
+  min-width: 552px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 10.7px 129.7px;
+  display: flex;
+  position: relative;
+}
+
+.group-9 {
+  cursor: pointer;
+  height: 94px;
+  min-width: 554px;
+  z-index: 5;
+  align-items: flex-start;
+  transition: all .2s ease-in;
+  display: flex;
+  position: fixed;
+  top: 6px;
+  left: 336px;
+}
+
+.overlap-group1 {
+  background-color: var(--viking);
+  height: 94px;
+  min-width: 552px;
+  align-items: flex-start;
+  padding: 11px 130px;
+  display: flex;
+  position: relative;
+}
+
+.co-bit {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  height: 85px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 226px;
+  z-index: 6;
+  font-weight: 400;
+  line-height: 40px;
+  position: fixed;
+  top: 8px;
+  left: 0;
+}
+
+.image-2 {
+  height: 300.26px;
+  object-fit: cover;
+  width: 336px;
+  z-index: 2;
+  margin-top: 103px;
+  margin-left: 552px;
+}
+
+.group-8-1 {
+  width: 856px;
+  z-index: 1;
+  margin-top: 233px;
+  margin-left: 293px;
+  display: flex;
+}
+
+.welcome-to-cobit-con {
+  height: 279px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 854px;
+  line-height: normal;
+}
+
+.span-1 {
+  color: var(--hint-of-red);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+}
+
+.place {
+  height: 72px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 292px;
+  line-height: normal;
+}
+
+
+
+:root {
+  --black: #000;
+  --hint-of-red: #fdf9f9;
+  --viking: #61d7d1;
+  --white: #fff;
+  --font-size-m: 96px;
+  --font-size-s: 77px;
+  --font-size-xs: 60px;
+  --font-size-xxs: 48px;
+  --font-family-inter: "Inter", Helvetica;
+}
+
+.inter-normal-white-77px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-hint-of-red-96px {
+  color: var(--hint-of-red);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=index.e1b8c111.css.map */

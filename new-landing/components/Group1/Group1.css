@@ -1,0 +1,23 @@
+.group-8-1 {
+  display: flex;
+  margin-left: 293px;
+  margin-top: 233px;
+  width: 856px;
+  z-index: 1;
+}
+
+.welcome-to-cobit-con {
+  height: 279px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 854px;
+}
+
+.span-1 {
+  color: var(--hint-of-red);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+}
+

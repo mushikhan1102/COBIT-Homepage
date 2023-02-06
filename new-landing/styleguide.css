@@ -1,0 +1,28 @@
+:root { 
+  --black: #000000;
+  --hint-of-red: #fdf9f9;
+  --viking: #61d7d1;
+  --white: #ffffff;
+ 
+  --font-size-m: 96px;
+  --font-size-s: 77px;
+  --font-size-xs: 60px;
+  --font-size-xxs: 48px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-normal-white-77px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-hint-of-red-96px {
+  color: var(--hint-of-red);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
